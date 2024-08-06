@@ -1,0 +1,272 @@
+<!-- yeyyeyeyey my first solo attempt sorta credit to SunnsetCadett for the tab system
+   https://toyhou.se/SunnsetCadett -->
+<!--you can ask for my assistance, not that there's a guarantee I'll be able to help-->
+
+
+<!--        SOME   HELP
+
+⌘  The colors of the doc:
+-main: #353769 #c2cab8 
+-secondary: #4f5059 #a1a5c4e8 #023d89
+
+⌘  If you want to alter the black text but you can't, remove the   text-dark  from where they were written. That thing overwrites your attempts.
+
+⌘ have some links just for you in case you need them:
+
+-FA icons: https://fontawesome.com/search
+(don't be shy to use the pro ones(the site lets you). 
+as long as u don't use them for profit there should be
+no issue)
+
+-Emoji/symbols: https://coolsymbol.com/
+
+-->
+
+
+
+<div style="border-radius:8px;filter:drop-shadow(0px 0px 10px #717171);">
+    
+    <div class="card text-dark" style="background-image:url('LINKHERE'); background:#353769;">
+        <div class="container" style="margin: 50px 20px 15px 20px ; width: auto; background-color: #a1a5c4e8; padding: 6px; position:relative;">
+            <h2 style="border-style:inset none none inset; border-color: #adc4db; font-family: helvetica, monospace; font-size: 27px;">Species File
+            <span class="float-right"> <img src="https://imgur.com/1sK0GSi.png" class="img-fluid" data-toggle="tooltip" style="max-height:60px; margin-right:20px;-webkit-box-reflect: below 0px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));" title="Thing"></span>
+            </h2>
+            <em style="color: #4f5059; font-family: Courier new, mono; margin-left:60px;"><b>⑉ "Quote." ⑉</b></em>
+            
+            <div class="text-dark" style=" border-radius: 6px; background:#c2cab8; height: auto; margin-right: 120px; margin-left:12px;box-shadow: inset 0 -17px 19px -7px rgba(0,0,0,0.3);">
+                <hr>
+                
+                <b style="font-family: 'Courier New', monospace; font-weight:; padding: 6px;font-size: 27px;">Name</b><span class="float-right" style="font-family: 'Courier New', monospace; color:; font-size: initial; margin-right: 20px ;">smth</span>
+                <hr>
+                <!--delete the two hr if you want to alter the box's size. for your own sanity-->
+             </div>  
+          <!-- defining the big tabs -start -->     
+           <ul class="nav nav-tabs" style="margin-top:-11px; border: 0; position:relative; z-index:999; margin-left: 600px;">
+            <li><a href="#individual" style="color:#4f5059; margin-left:-15px" data-toggle="tab" class="fa-stack fa-2x">
+                    <i class="fas fa-rectangle-wide fa-stack-2x" style="text-shadow: 2px 4px 3px rgba(0,0,0,0.2);" aria-hidden="true"></i>
+                    <i style="color:#bfc6c8;" class="fa-solid fa-circle-info fa-stack-1x fa-inverse" aria-hidden="true"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#species" data-toggle="tab" class="fa-stack fa-2x" style="color:#4f5059;margin-left:6px">
+                    <i class="fas fa-rectangle-wide fa-stack-2x" style="text-shadow: 2px 4px 3px rgba(0,0,0,0.2);" aria-hidden="true"></i>
+                    <i style="color:#bfc6c8" class="fas fa-paw fa-stack-1x fa-inverse" aria-hidden="true"></i>
+                </a>
+            </li>
+            
+        </ul>
+        <!-- definition end -->
+            <div class="container" style="border-color:;">
+      <table class="float-left" style="border-style: none; max-width:420px; border: 2px solid darkgray;">
+            <colgroup><col style="background:#c2cab8; "></colgroup>
+           <tbody><tr>
+              <td style="">
+                <div class="col-md-13 p-3" style=" height: auto; border-radius: 6px ;  background:#c2cab8;">
+                    <!--copy paste more to make more -->
+                 <span class="float-left" style="font-family: 'Courier New', monospace; color: ;  ;"> <b>Name </b><h5 style="color:; margin-right: 10px;">smth</h5></span><hr style="border: 1px solid darkgray;"> 
+                 <span class="float-left" style="font-family: 'Courier New', monospace; color: ;  ;"> <b>Species </b><h5 style="color:; margin-right: 10px;">smth</h5></span><hr style="border: 1px solid darkgray;">  
+                 <span class="float-left" style="font-family: 'Courier New', monospace; color: ;  ;"> <b>Age </b><h5 style="color:; margin-right: 10px;">smth</h5></span><hr style="border: 1px solid darkgray;">  
+                 <!--to find images with a proper format(.png) use advanced search on your search engine-->
+                 <span class="float-left" style="font-family: 'Courier New', monospace; color: ;  ;"> <b>Gender </b><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Nonbinary_flag.svg/1280px-Nonbinary_flag.svg.png" style="margin-right:-10px; max-width:27px; opacity:initial;"><h5 style="color:; margin-right: 10px;">smth(pronouns)</h5></span><hr style="border: 1px solid darkgray;"><hr style="border: 1px solid darkgray;"><hr style="border: 1px solid darkgray;"> 
+                 
+
+              </div></td>
+           </tr>
+               <tr>
+                   <td>
+                       <div class="col float-left" style=" background:#c2cab8; ">
+                           <span class="float-left" style="font-family: 'Courier New', monospace;"> <b>Design </b></span><br><hr style="max-width:150px; margin-left:0; border: 1px solid darkgray;">
+                        </div>  
+                    </td>
+                </tr>
+                <tr>
+                    <td>       
+                        <!--thee eyes-->   
+                      <i class="fa-sharp-duotone fa-solid fa-eye fa-2x" data-toggle="tooltip" style="--fa-primary-color: #59509d; --fa-secondary-color: #890213;" title="right eye" aria-hidden="true"></i><span class="sr-only">right eye</span>
+                      <i class="fa-sharp-duotone fa-solid fa-eye fa-2x" data-toggle="tooltip" style="--fa-primary-color: #d52222; --fa-secondary-color: #8da40b;" title="left eye" aria-hidden="true"></i><span class="sr-only">left eye</span>
+                      
+                      <!--pallete colors; add more percentages or whatever to get more colours-->
+                      <div class="rounded d-inline-block" style="background-image:linear-gradient(to right, #cfddf4,#cfddf4 25%,#5a5431 25%,#5a5431 50%,#c0ab33 50%, #d0b208 75%,#49697a 75%);line-height:30px;width:100px;" title="fur/hair/scales">&nbsp;</div>
+                      <!--by skin here I mean things like paw beans, nose, ear insides, scars, wing membranes etc. if the structure is too weird for your taste, feel free to modify and rename or alter it further-->
+                      <div class="rounded d-inline-block" style="background-image:linear-gradient(to right, #dfd8d1,#dfd8d1 33.3%,#a49574 33.3%,#a49574 66.6%,#e0b19d 66.6%);line-height:30px;width:100px;" title="skin">&nbsp;</div>
+                   </td>
+               </tr>
+          <tr>
+              <td style="border-style: none; width: 400px">
+        <!--tiny tabs start-->          
+                  
+                  <div class="container" style="">
+                    <ul class="nav nav-tabs" style="margin-top:-6px; border: 0; position:relative; z-index:999; margin-left:70px">
+                    
+                  <li class="active"><a href="#regular" style="color:#62671e; margin-left:25px" data-toggle="tab" class="fa-stack fa-2x">
+                    <i class="fa-sharp-duotone fa-solid fa-rectangle-wide fa-stack-2x" style="text-shadow: 2px 4px 3px rgba(0,0,0,0.2);" aria-hidden="true"></i>
+                    <i style="color:#4f5059;" class="fa-sharp-duotone fa-solid fa-dragon fa-stack-1x fa-inverse" data-toggle="tooltip" title="Regular Form" aria-hidden="true"></i><span class="sr-only">Regular Form</span>
+                        </a>
+                    </li>
+                  <li>
+                    <a href="#trueform" data-toggle="tab" class="fa-stack fa-2x " style="color:#62671e;margin-left:6px">
+                    <i class="fa-sharp-duotone fa-solid fa-rectangle-wide fa-stack-2x" style="text-shadow: 2px 4px 3px rgba(0,0,0,0.2);" aria-hidden="true"></i>
+                    <i style="color:#4f5059" class="fa-sharp-duotone fa-solid fa-hydra fa-stack-1x fa-inverse" data-toggle="tooltip" title="True Form" aria-hidden="true"></i><span class="sr-only">True Form</span>
+                       </a>
+                     </li>
+                  </ul>
+                     
+                  
+                     <div class="tab-content" style="max-width:400px; background-color: rgba(255,255,255,0.65); ">
+            
+            
+            <!-- regular start -->          
+                     <div class="tab-pane fade show active" id="regular">
+                      
+                         <div class="mt-6 card rounded-0" style="background:rgb(120,198,220, 0); max-width:auto; border: solid 2px #bfc6c8; background-image: url('IMAGELINKHERE'); background-size:contain; background-repeat:no-repeat">
+                            <a href="linktoartist"><img src="https://upload.wikimedia.org/wikipedia/commons/5/5f/BBB-Bunny.png" style="display: block; margin-left: auto; margin-right: auto;max-height:400px; z-index: 99"></a>
+                        
+                  
+                  </div>    
+                </div>
+              
+                    
+             <!-- regular end-->
+                       
+             <!-- TRUE FORM  start -->         
+                  
+                     <div class="tab-pane fade" id="trueform">
+                        
+                            <div class="mt-6 card rounded-0" style="background: rgb(120,198,220, 0); max-width:auto; border: solid 2px #bfc6c8; background-image: url('IMAGELINKHERE'); background-size:contain; background-repeat:no-repeat">
+                            <a href="linktoartist"><img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0d79db32-79e4-479c-8203-16811e418334/dgrovck-01d0ede1-28c9-4488-bb5d-0d372771eb3a.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzBkNzlkYjMyLTc5ZTQtNDc5Yy04MjAzLTE2ODExZTQxODMzNFwvZGdyb3Zjay0wMWQwZWRlMS0yOGM5LTQ0ODgtYmI1ZC0wZDM3Mjc3MWViM2EucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.wvCwHvIvh3eu0Q0UZklCZdar7GjNOOTlvTo7GDuhdO4" style="display: block; margin-left: auto; margin-right: auto; bottom:auto;max-height:400px; z-index: 99"></a>
+                     
+                 
+                     </div>
+                     <!-- true form end-->
+                     </div></div>
+                     </div>
+                     
+                <!--tiny tabs end-->     
+                 
+                
+              </td>
+          </tr>
+         </tbody></table>
+ 
+          <!--big tabs start-->  
+            <div class="tab-content float-left" style="margin-left: 6px; width:480px; background-color:white;">
+                 
+                  
+                <!-- individual start -->
+                <div class="tab-pane fade show active" id="individual">
+                    <div class="card p-3" style="height: 690px; overflow:auto;background:#c2cab8;">
+                  <div class="row">
+                      
+                <!--make as many as u want-->      
+                      <div class="col-md-8 p-6" style="margin-left:80px;  color: #353769;">
+                  <p style="text-align:center justify; margin-top:6px;">Meow the meowiest cat of meowthykun and meowzies. Meowowowowo le mew and myowh mewing as a mowaw mrrlow 🐱</p><hr style="border: 1px solid gray;">
+                      </div>
+                <!--who needs lorem ipsum when u have meows-->      
+                      <div class="col-md-8 p-6" style="margin-left:80px; color: #023d89;">
+                  <p style="text-align:center justify;">Meow the meowiest cat of meowthykun and meowzies. Meowowowowo le mew and myowh mewing as a mowaw mrrlow 🗯</p><hr style="border: 1px solid gray;">
+                      </div>
+                      <div class="col-md-8 p-6" style="margin-left:80px; color: #353769;">
+                  <p style="text-align:center justify;">Meow the meowiest cat of meowthykun and meowzies. Meowowowowo le mew and myowh mewing as a mowaw mrrlow ►</p><hr style="border: 1px solid gray;">
+                      </div>
+                      <div class="col" data-toggle="tooltip" style="max-width:150px;">
+                      
+                      </div>
+                   </div>
+              <!--Pics of details or whatever u want-->       
+        <div class="container">
+          <table style="border-style: none; width:60%; margin:45px;">
+            <tbody><tr>
+          <td class="dropdown">
+            <input type="image" alt="submit" name="submit" id="dropdown" data-toggle="dropdown" aria-expanded="false" src="https://upload.wikimedia.org/wikipedia/commons/8/86/Longhairedsyrianhamster.png" class="img-fluid" style="border-radius:50%; border: 6px solid #62671e91; max-width:144px; max-height:144px;">
+                  <div class="dropdown-menu" aria-labelledby="dropDownButton" style="width:144px; font-family: helvetica;border: 3px solid #a1a5c4e8;background-color: #4f5059ef; color:#c2cab8;box-shadow: -4px 6px 28px -14px #c2cab8 inset, 0 -10px 12px -6px #3c3e41 inset, 10px 10px 10px #a1a5c4e8;"> 
+                      <h6 style="text-align:center; font-weight:700;">Cat</h6><hr>
+                      <p style="font-family: helvetica; font-size:14px;">Catter kat kit catty cat</p>
+                  </div>
+           </td>
+                   
+                   
+           <td>
+              <input type="image" alt="submit" name="submit" id="dropdown" data-toggle="dropdown" aria-expanded="false" src="https://icatcare.org/app/uploads/2018/07/Thinking-of-getting-a-cat.png" style="border-radius:50%; border: 6px solid #62671e91; max-height:144px; max-width:144px;" class="img-fluid float-right">   
+                   <div class="dropdown-menu" aria-labelledby="dropDownButton" style="width:144px; font-family: helvetica;border: 3px solid #a1a5c4e8;background-color: #4f5059ef; color:#c2cab8;box-shadow: -4px 6px 28px -14px #c2cab8 inset, 0 -10px 12px -6px #3c3e41 inset, 10px 10px 10px #a1a5c4e8;"> 
+                      <h6 style="text-align:center; font-weight:700;">Katze</h6><hr>
+                      <p style="font-family: helvetica; font-size:14px;">Katze miaut katzchen und kater</p>
+                    </div> 
+            </td>
+             </tr>
+  
+  
+  
+             <tr>
+          <td>
+              <input type="image" alt="submit" name="submit" id="dropdown" data-toggle="dropdown" aria-expanded="false" src="https://images.pexels.com/photos/16495681/pexels-photo-16495681/free-photo-of-close-up-of-a-dogs-face.png" class="img-fluid" style="border-radius:50%; border: 6px solid #62671e91; max-height:144px; max-width:144px;">
+                   
+                   <div class="dropdown-menu" aria-labelledby="dropDownButton" style="width:144px; font-family: helvetica;border: 3px solid #a1a5c4e8;background-color: #4f5059ef; color:#c2cab8;box-shadow: -4px 6px 28px -14px #c2cab8 inset, 0 -10px 12px -6px #3c3e41 inset, 10px 10px 10px #a1a5c4e8;"> 
+                      <h6 style="text-align:center; font-weight:700;">Pisica</h6><hr>
+                      <p style="font-family: helvetica; font-size:14px;">pisica pisiceste pisicind pisoiul</p>
+                    </div>  
+            </td>
+                   
+                   
+            <td>
+               <input type="image" alt="submit" name="submit" id="dropdown" data-toggle="dropdown" aria-expanded="false" src="https://images.pexels.com/photos/19448089/pexels-photo-19448089/free-photo-of-close-up-of-a-snake-on-green-background.png" style="border-radius:50%; border: 6px solid #62671e91; max-height:144px; max-width:144px;" class="img-fluid float-right">   
+                   <div class="dropdown-menu" aria-labelledby="dropDownButton" style="width:144px; font-family: helvetica;border: 3px solid #a1a5c4e8;background-color: #4f5059ef; color:#c2cab8;box-shadow: -4px 6px 28px -14px #c2cab8 inset, 0 -10px 12px -6px #3c3e41 inset, 10px 10px 10px #a1a5c4e8;"> 
+                      <h6 style="text-align:center; font-weight:700;">Mew</h6><hr>
+                      <p style="font-family: helvetica; font-size:14px; text-align:justified;">Meow the meowiest cat of meowthykun and meowzies. Meowowowowo le mew and myowh mewing as a mowaw mrrlow</p>
+                    </div>  
+                </td>
+                 </tr>
+              </tbody></table>
+           </div>
+              <!--Pics end-->
+                   
+         </div>
+                </div>
+                <!-- about end-->
+                
+                
+                <!-- species start-->
+                <div class="tab-pane fade" id="species">
+                    <div class="card" style="height: 690px; width: 480px;overflow:auto; background:#c2cab8;">
+                      <h3 style="color:#353769; font-family:Andale Mono, monospace; margin:36px; font-weight;">Species</h3>    
+                        <div class="container" style="margin: 12px;max-height:169px; overflow: auto;">
+                      
+                      <h5 style="font-family:'Courier New', monospace;"><b>Behaviour</b></h5>
+                      <p style="color:#353769;border-style: inset inset outset dashed; text-align:justified;">⌘ Meow the meowiest cat of meowthykun and meowzies. Meowowowowo le mew and myowh mewing as a mowaw mrrlow 🐱</p>
+                      </div>
+                      
+                      
+                     <div class="container" style="margin: 12px;max-height:169px; overflow: auto;">
+                      <h5 style="font-family:'Courier New', monospace;"><b>Interspecies relations</b></h5>
+                      <p style="color:#353769;border-style:inset inset outset dashed; text-align:justified;">⌘ Meow the meowiest cat of meowthykun and meowzies. Meowowowowo le mew and myowh mewing as a mowaw mrrlow 🐱</p>
+                      </div>
+                      <div class="container" style="margin: 12px;max-height:169px; overflow: auto;">
+                      <h5 style="font-family:'Courier New', monospace;"><b>Characteristics</b></h5>
+                      <ul class="list-unstyled" style="color:#353769;border-style:outset none none dashed; text-align:justified; background-color:;">
+                        <li>⌘Roar</li>
+                        <li>⌘Tweet  </li>         
+                        <li>⌘Woof</li>
+                        <li>⌘Neigh</li>
+                      </ul>
+                      </div>
+                      
+  
+                      <!--trivia-->
+                      <div class="container" style="margin: 12px;max-height:169px; overflow: auto; bottom:0">
+                      <b style="font-family:'Courier New', monospace;">Notes</b><hr style="border-top: 1px dashed black; width:286px; margin-left:0;">
+                      <small style="color:; text-align:justified;"><sup>1</sup>Meow the meowiest cat of meowthykun and meowzies. Meowowowowo le mew and myowh mewing as a mowaw mrrlow 🐱</small>
+                      <p>
+                      <small style="color:; text-align:justified;"><sup>2</sup>Meow the meowiest cat of meowthykun and meowzies. Meowowowowo le mew and myowh mewing as a mowaw mrrlow 🐱</small></p>
+                    </div>
+                    <!--trivia end-->
+                </div> 
+                <!-- species end-->
+                
+                </div> 
+            </div>
+            <!--big tabs end-->  
+            
+            </div>
+            
+          </div>   
+         </div>
+     </div>
